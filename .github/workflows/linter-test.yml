@@ -20,9 +20,11 @@ jobs:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
         uses: actions/checkout@v2
+        
+      # Install and build project
+      - name: npm install, build
+        run: make install
  
-      # Runs the Super-Linter action
+      # Runs the linter action
       - name: Run Linter
-        run:
-          make install
-          make lint 
+        run: make lint 
