@@ -6,7 +6,7 @@ on:
       - master 
  
 jobs:
-  Eslint:
+  build:
     runs-on: ubuntu-latest
  
     steps:
