@@ -22,5 +22,4 @@ export default () => {
     questionCount += 1;
   } while (questionCount !== 3);
   console.log(`Congratulations, ${userName}!`);
-  return;
 };
