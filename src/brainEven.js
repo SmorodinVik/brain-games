@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
-import isEven from 'isEven.js';
-import getRandomNumber from 'getRandomNumber.js';
+import isEven from './isEven.js';
+import getRandomNumber from './getRandomNumber.js';
 
 export default () => {
   const userName = readlineSync.question('May I have your name? ');
