@@ -8,8 +8,16 @@ const getRandomArg = (...args) => {
   return args[randomIndex];
 };
 
+const getBiggestDivider = (num1, num2) => {
+  const lowerNum = Math.min(num1, num2);
+  const higherNum = Math.max(num1, num2);
+  const result = higherNum % lowerNum;
+  return (result === 0 ? lowerNum : getBiggestDivider(result, lowerNum));
+};
+
 export {
   isEven,
   getRandomNumber,
   getRandomArg,
+  getBiggestDivider,
 };
