@@ -12,5 +12,6 @@ export default () => {
     '*': (a, b) => a * b,
   };
   const correctAnswer = mapping[actionSymbol](firstValue, secondValue);
-  return { question, correctAnswer };
+  const description = 'What is the result of the expression?';
+  return { description, question, correctAnswer };
 };
