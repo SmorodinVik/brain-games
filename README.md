@@ -3,6 +3,8 @@
 [![asciicast](https://asciinema.org/a/3f9zMr4uSopRM9WdebRpwG3KH.svg)](https://asciinema.org/a/3f9zMr4uSopRM9WdebRpwG3KH)
 ### Brain-calc:
 [![asciicast](https://asciinema.org/a/ShCgG8Hst0reT2a0aVZywjkj4.svg)](https://asciinema.org/a/ShCgG8Hst0reT2a0aVZywjkj4)
+### Brain-gcd:
+[![asciicast](https://asciinema.org/a/5GZ19ir1plD6PfBAHzsENLgbh.svg)](https://asciinema.org/a/5GZ19ir1plD6PfBAHzsENLgbh)
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SmorodinaVik/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SmorodinaVik/frontend-project-lvl1/actions)
