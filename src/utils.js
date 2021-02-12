@@ -2,10 +2,10 @@ const isEven = (number) => number % 2 === 0;
 
 const getRandomNumber = (maxValue) => Math.floor(Math.random() * maxValue);
 
-const getRandomArg = (...args) => {
-  const argsCount = args.length;
-  const randomIndex = getRandomNumber(argsCount);
-  return args[randomIndex];
+const getRandomSign = () => {
+  const signs = ['*', '+', '-'];
+  const randomIndex = getRandomNumber(signs.length);
+  return signs[randomIndex];
 };
 
 const getGreatestCommonDivisor = (num1, num2) => {
@@ -26,7 +26,7 @@ const isPrime = (number) => {
 export {
   isEven,
   getRandomNumber,
-  getRandomArg,
+  getRandomSign,
   getGreatestCommonDivisor,
   isPrime,
 };

@@ -1,8 +1,7 @@
 import * as utils from '../utils.js';
 
 export default () => {
-  const lengths = [7, 8, 9, 10, 11];
-  const progressionLength = utils.getRandomArg(...lengths);
+  const progressionLength = utils.getRandomNumber(8) + 7;
   const emptyIndex = utils.getRandomNumber(progressionLength);
   const maxEnlager = 11;
   const enlager = utils.getRandomNumber(maxEnlager);
