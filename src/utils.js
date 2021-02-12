@@ -15,9 +15,18 @@ const getGreatestCommonDivisor = (num1, num2) => {
   return (result === 0 ? lowerNum : getGreatestCommonDivisor(result, lowerNum));
 };
 
+const isPrime = (number) => {
+  if (number === 1 || number === 0) return false;
+  for (let i = 2; i < number / 2; i += 1) {
+    if (number % i === 0) return false;
+  }
+  return true;
+};
+
 export {
   isEven,
   getRandomNumber,
   getRandomArg,
   getGreatestCommonDivisor,
+  isPrime,
 };
