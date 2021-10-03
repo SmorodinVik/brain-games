@@ -1,6 +1,6 @@
 # Brain Games
 ![Linter](https://github.com/SmorodinaVik/frontend-project-lvl1/workflows/Linter/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fcb42d034f9a307cae9c/maintainability)](https://codeclimate.com/github/SmorodinaVik/brain-games/maintainability)
 
 The project includes five arithmetic console games.
 
